@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+    color: crimson;
+    background-color: crimson;
+    font-family: sans-serif;
+}
+
+p{
+    text-align: center;
+    color: blueviolet;
+    background-color: blueviolet;
+    font-weight: 3em;
+}
+
+body{
+    text-align: center;
+    color: beige;
+    background-color: beige;
+    font-size: 16px;
+}
+
+li{
+    background-color: aqua;
+    color: aqua;
+    text-align: center;
+    font-family: monospace;
+
+}
