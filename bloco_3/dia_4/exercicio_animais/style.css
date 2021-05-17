@@ -1,0 +1,95 @@
+body{
+    background-image:url(https://i.pinimg.com/originals/94/e4/c9/94e4c9fbe2d43ead4d355e07012639cd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: monospace;
+    font-weight:  500;
+}
+
+
+nav ul li:nth-child(1){
+    margin-left: 300px;
+
+}
+
+nav li{
+    text-align: center;
+    background-color: darkolivegreen;
+    display: inline-block;
+    width: 20%;
+    padding: 20px;
+    
+}
+
+#texto{
+    border: solid;
+    text-align: center;
+    margin-left: 340px;
+    width: 50%;
+    background-color:rgba(0,127,255, 0.5);
+    margin-bottom: 30px;
+    
+}
+#texto h1{
+    background-color: rosybrown;
+}
+#texto section{
+    border: solid;
+    margin-left: 220px;
+    width: 500px;
+    height: 200px;
+    padding: 30px;
+    
+}
+
+#texto section h3{
+    
+    margin-top: 30px;
+    
+}
+
+aside{
+    text-decoration: none;
+    background-color: teal;
+    padding: 20px;
+    display: inline-block;
+    position: absolute;
+    margin-left: 1289px; 
+    border: solid;
+}
+
+#link-video{
+    background-color: violet;
+    text-align: center;
+    width: 300px;
+    font-size: 20px;
+    
+}
+
+
+
+#foto{
+    margin-left: 50px;
+}
+
+#introducao{
+   
+    background-color: aqua;
+}
+
+#aparencia{
+    
+    background-color: aquamarine;
+}
+
+#demonio{
+    background-color: blue;
+}
+
+#conclusao{
+    background-color: cornflowerblue;
+}
+
+footer{
+    background-color: darkkhaki;
+}
