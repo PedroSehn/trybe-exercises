@@ -1,0 +1,5 @@
+criar o array
+criar variavel pra jogar os valores 
+criar um for pra percorrer o array
+somar numero do indice com a variavel
+print variavel

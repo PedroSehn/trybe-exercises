@@ -1,0 +1,5 @@
+criara o array
+criar variavel pra mostrar o array
+criar um for of pro array
+mandar o resultado do for of pra variavel
+printar variavel
