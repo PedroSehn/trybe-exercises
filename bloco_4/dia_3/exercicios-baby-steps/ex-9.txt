@@ -1,0 +1,8 @@
+criar array vazio
+criar um for que começa em 0 e para no 26
+adiciona valor atual de index ao array
+printa array
+criar outro for  pra percorrer o array
+criar outro array vazio
+divdir por 2 o numero equivalente a posição do index e add ao segundo array
+printar segundo array

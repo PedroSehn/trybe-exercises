@@ -1,0 +1,6 @@
+criar array
+criar variavel iMaior
+criar variavel iMenor
+criar um for pra percorrer o array
+caso o valor do index for maior que iMaior, iMaior recebe o valor de index
+printar na tela o valor final de iMaior

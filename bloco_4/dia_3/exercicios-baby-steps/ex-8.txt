@@ -1,0 +1,4 @@
+criar array vazio
+criar um for que começa em 0 e para no 26
+adiciona valor atual de index ao array
+printa array

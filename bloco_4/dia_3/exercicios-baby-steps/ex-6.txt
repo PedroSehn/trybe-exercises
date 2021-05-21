@@ -1,0 +1,6 @@
+criar array
+criar array auxiliar
+criar for pra percorrer array
+se o index atual do array percorrido dividido por 2 for diferente de 0, add no array auxiliar
+printar os valores do array auxiliar
+caso valor do array auxiliar seja 0,printar nao tem impar

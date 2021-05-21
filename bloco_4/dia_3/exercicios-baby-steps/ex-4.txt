@@ -1,0 +1,8 @@
+criar o array
+criar variavel pra jogar os valores 
+criar um for pra percorrer o array
+somar numero do indice com a variavel
+print variavel
+dividir variavel por array.length
+se o valor da divisao for maior que 20, imprimir 'maior que 20'
+caso contrario, imprimir 'menor ou igual  a 20'
