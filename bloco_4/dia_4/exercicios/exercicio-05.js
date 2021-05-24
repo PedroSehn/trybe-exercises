@@ -16,4 +16,5 @@ let info = {
 
   for(let i in info, tioPatinhas){
 	  console.log(info[i]+ " e " + tioPatinhas[i])
+	  
   }
