@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<link rel="stylesheet" href="style.css">
+	<form action="" method="GET">
+		<fieldset id='inputs'>
+			
+			<label for="texto">
+				<legend> Nome </legend>
+				<input type="text" name="texto" maxlength="40" placeholder="nome" required	>
+			</label>
+			
+			<label for="email">
+				<legend> Email </legend>
+				<input type="text" name='email' maxlength="50" placeholder="email" required>
+			</label>
+			
+			<label for="cpf">
+				<legend> CPF </legend>
+				<input type="text" name='cpf' maxlength="11" placeholder="CPF" required>
+			</label>
+			
+			<label for="endereco">
+				<legend> Endereco </legend>
+				<input type="text" name="endereco" maxlength="200" placeholder="endereco" required>
+			</label>
+			
+			<label for="cidade">
+				<legend>Cidade</legend>
+				<input type="text" name="cidade" placeholder="cidade" maxlength="28" required>
+			</label>
+			
+			<label for="estado"	required>
+				<legend>Estado</legend>
+				<select id="estado">
+
+				</select>
+			</label>
+			
+			<label for="radio">
+				<legend>Tipo de casa</legend>
+				<input type="radio" name="houseType" value="casa">Casa</input>
+				<input type="radio"  name="houseType" value='apartamento'>Apartamento</input>
+				
+			</label>
+			
+
+		</fieldset>
+
+		<fieldset id="lastJob">
+			
+			<label for="curriculo">
+				<legend>Resumo curriculo</legend>
+				<textarea  name="curriculo" id="curriculo" maxlength="1000" required></textarea>
+			</label>
+			
+			<label for="ultCargo">
+				<legend>Ultimo Cargo</legend>
+				<input type="text" name="ultCargo" id="ultCargo" maxlength="40" required>
+			</label>
+
+			<label for="descricaoCargo">
+				<legend>Descricao do Cargo</legend>
+				<input type="text" name="descricaoCargo" id="descricaoCargo" maxlength="500" required>
+			</label>
+
+			<label for="dataInicio" id="dataInicio">
+				<legend>Data de Inicio</legend>
+				<input type="date" name="dataInicio" id="dataInicio" required>
+			</label>
+
+
+		</fieldset>
+	</form>
+
+	<script src="script.js"></script>
+</body>
+</html>
