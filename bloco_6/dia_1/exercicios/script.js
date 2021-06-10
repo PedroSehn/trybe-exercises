@@ -28,6 +28,12 @@ let siglas = [
 	'TO',
 ]
 
+let resultado =[];
+
+let info = document.getElementsByClassName('importantInput');
+
+let prevent = document.getElementById('submit');
+
 let estadoOptions = document.createElement('option');
 
 function appendEstados(){
@@ -39,7 +45,31 @@ function appendEstados(){
 		
 	}
 }
-
 appendEstados();
 
+
+
+
+function getInfo(){
+		
+	for(i = 0; i < 12; i++){
+		let nome = info[i].name;
+		let valor = info[i].value;
+		resultado.push(nome + ' = ' + valor);
+	}
+	return console.log(resultado);
+}
+
+prevent.addEventListener('click', getInfo);
+
+
+function returnInfo(){
+	for (let i in resultado) {
+		
+		document.getElementById('return').appendChild(document.createElement('li'))
+		document.getElementById('return').children[i].innerText = resultado[i];
+		
+	}
+}
+prevent.addEventListener('click', returnInfo);
 //document.createElement('option').innerText = document.createElement('option').value;

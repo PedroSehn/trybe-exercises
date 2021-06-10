@@ -11,42 +11,42 @@
 	<form action="" method="GET">
 		<fieldset id='inputs'>
 			
-			<label for="texto">
+			<label for="nome">
 				<legend> Nome </legend>
-				<input type="text" name="texto" maxlength="40" placeholder="nome" required	>
+				<input type="text" name="nome" maxlength="40" placeholder="nome" class="importantInput" required>
 			</label>
 			
 			<label for="email">
 				<legend> Email </legend>
-				<input type="text" name='email' maxlength="50" placeholder="email" required>
+				<input type="text" name='email' maxlength="50" placeholder="email" class="importantInput" required>
 			</label>
 			
 			<label for="cpf">
 				<legend> CPF </legend>
-				<input type="text" name='cpf' maxlength="11" placeholder="CPF" required>
+				<input type="text" name='cpf' maxlength="11" placeholder="CPF" class="importantInput" required>
 			</label>
 			
 			<label for="endereco">
 				<legend> Endereco </legend>
-				<input type="text" name="endereco" maxlength="200" placeholder="endereco" required>
+				<input type="text" name="endereco" maxlength="200" placeholder="endereco" class="importantInput" required>
 			</label>
 			
 			<label for="cidade">
 				<legend>Cidade</legend>
-				<input type="text" name="cidade" placeholder="cidade" maxlength="28" required>
+				<input type="text" name="cidade" placeholder="cidade" maxlength="28" class="importantInput" required>
 			</label>
 			
 			<label for="estado"	required>
 				<legend>Estado</legend>
-				<select id="estado">
+				<select id="estado" name="estado" class="importantInput">
 
 				</select>
 			</label>
 			
 			<label for="radio">
 				<legend>Tipo de casa</legend>
-				<input type="radio" name="houseType" value="casa">Casa</input>
-				<input type="radio"  name="houseType" value='apartamento'>Apartamento</input>
+				<input type="radio" name="houseType" value="casa" class="importantInput">Casa</input>
+				<input type="radio"  name="houseType" value='apartamento' class="importantInput">Apartamento</input>
 				
 			</label>
 			
@@ -57,26 +57,35 @@
 			
 			<label for="curriculo">
 				<legend>Resumo curriculo</legend>
-				<textarea  name="curriculo" id="curriculo" maxlength="1000" required></textarea>
+				<textarea  name="curriculo" id="curriculo" maxlength="1000" class="importantInput" required></textarea>
 			</label>
 			
 			<label for="ultCargo">
 				<legend>Ultimo Cargo</legend>
-				<input type="text" name="ultCargo" id="ultCargo" maxlength="40" required>
+				<input type="text" name="ultCargo" id="ultCargo" maxlength="40" class="importantInput" required>
 			</label>
 
 			<label for="descricaoCargo">
 				<legend>Descricao do Cargo</legend>
-				<input type="text" name="descricaoCargo" id="descricaoCargo" maxlength="500" required>
+				<input type="text" name="descricaoCargo" id="descricaoCargo" maxlength="500" class="importantInput" required>
 			</label>
 
 			<label for="dataInicio" id="dataInicio">
 				<legend>Data de Inicio</legend>
-				<input type="date" name="dataInicio" id="dataInicio" required>
+				<input type="date" name="dataInicio" id="dataInicio" class="importantInput" required>
 			</label>
 
 
 		</fieldset>
+
+		<button type="button" id="submit">Botao</button>
+		<button type="reset"> Clear</button>
+
+		<div >
+			<ul id="return">
+
+			</ul>
+		</div>
 	</form>
 
 	<script src="script.js"></script>
