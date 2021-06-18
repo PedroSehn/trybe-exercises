@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+	<title>Document</title>
+</head>
+<body >
+	
+	<form action="" method="GET">
+		<fieldset id='inputs' ">
+			
+			<div class="mb-3">
+
+				<label for="nome" class="form-label">Nome</label>
+					
+					<input type="text" name="nome" maxlength="40" placeholder="nome" class="importantInput form-control" required>
+					<div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+				
+
+			</div>
+			
+			<div class="mb-3">
+				<label for="email" class='form-label'>Email</label>
+				<input type="text" name='email' maxlength="50" placeholder="email" class="importantInput form-control" required>
+				
+			</div>
+			
+			<div class="mb-3">
+				<label for="endereco">endereco</label>
+				<input type="text" name="endereco" maxlength="200" placeholder="endereco" class="importantInput form-control" required>
+				
+			</div>
+			
+			<div class="mb-3">
+				<label for="cidade">Cidade</label>
+				<input type="text" name="cidade" placeholder="cidade" maxlength="28" class="importantInput form-control" required>
+			</div>
+			
+			
+			<div class="mb-3">
+			<label for="estado"	required>Estado</label>
+			
+				<select id="estado" name="estado" class="importantInput form-control"></select>
+			
+			</div>
+
+			<label for="radio">
+				<legend>Tipo de casa</legend>
+				<input type="radio" name="houseType" value="casa" class="importantInput form-check-input">Casa</input>
+				<input type="radio"  name="houseType" value='apartamento' class="importantInput form-check-input">Apartamento</input>
+				
+			</label>
+			
+
+		</fieldset>
+
+		<fieldset id="lastJob">
+			
+			<label for="curriculo">
+				<legend>Resumo curriculo</legend>
+				<textarea  name="curriculo" id="curriculo" maxlength="1000" class="importantInput" required></textarea>
+			</label>
+			
+			<label for="ultCargo">
+				<legend>Ultimo Cargo</legend>
+				<input type="text" name="ultCargo" id="ultCargo" maxlength="40" class="importantInput" required>
+			</label>
+
+			<label for="descricaoCargo">
+				<legend>Descricao do Cargo</legend>
+				<input type="text" name="descricaoCargo" id="descricaoCargo" maxlength="500" class="importantInput" required>
+			</label>
+
+			<label for="dataInicio" id="dataInicio">
+				<legend>Data de Inicio</legend>
+				<input type="text" name="dataInicio" id="dataInicio" class="importantInput" required>
+			</label>
+
+
+		</fieldset>
+
+		<button type="button" id="submit">Botao</button>
+		<button type="reset"> Clear</button>
+
+		<div >
+			<ul id="return">
+
+			</ul>
+		</div>
+	</form>
+	
+	
+	
+
+
+	<script src="script.js"></script>
+</body>
+</html>
