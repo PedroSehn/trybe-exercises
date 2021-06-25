@@ -46,5 +46,24 @@ warriorsPower();
 
 //mage script
 const magesPower = () => {
+  let minDmg = mage.intelligence;
+  let maxDmg = mage.intelligence * 2;
+  let noManaMsg = 'Mago tá sem mana, fudeu';
+ 
+  mage.damage = {};
+  mage.damage['dano'] = 1;
+  mage.damage['noMana'] = mage.mana < 15;
   
+  
+  if(mage.damage['noMana'] === false){
+    mage.damage['dano'] =  Math.floor(Math.random() * (maxDmg - minDmg + 1) + minDmg);
+    mage.mana -= 15;
+  }else{
+    mage.damage['dano'] = noManaMsg;
+  }
+
+  console.log(mage.mana);
+  console.log(mage.damage);
+
 }
+magesPower();
