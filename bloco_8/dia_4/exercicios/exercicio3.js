@@ -1,5 +1,6 @@
 const assert = require('assert');
 
+
 const books = [
   {
     id: 1,
@@ -63,4 +64,13 @@ const books = [
   },
 ];
 
-// Adicione o código do exercício aqui:
+const teste = () =>{
+ 
+ const sumOfAges = books.reduce((acumulator, atual) => (
+  acumulator += (atual.releaseYear - atual.author.birthYear)
+), 0);
+  
+return sumOfAges / books.length;
+}
+
+console.log(teste());
